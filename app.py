@@ -50,8 +50,7 @@ while True:
     if each_word == "self-conscious":
       feelings_list.append("self-conscious")
       encouragement_list.append("you are amazing in your own way, do not let what other people think of you pull you down")
-      counter += 1
-            
+      counter += 1            
   if counter == 0:
     
       output = "Sorry I don't really understand. Please use different words?"
