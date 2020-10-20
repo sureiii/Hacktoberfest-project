@@ -47,6 +47,10 @@ while True:
       feelings_list.append("nervous")
       encouragement_list.append("Relax. There will be a good outcome!")
       counter += 1
+    if each_word == "self-conscious":
+      feelings_list.append("self-conscious")
+      encouragement_list.append("you are amazing, do not let people's thoughts pull you down")
+      counter += 1
       
   if counter == 0:
     
